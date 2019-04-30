@@ -39,3 +39,7 @@ docker run -it --rm --name zeppelin --net=host -e PORT0=[ZEPPELIN_PORT] \
 The given volumes contain Hive, Hadoop, and Spark configuration files of your remote cluster.
 The `/notebook` volume is where Zeppelin notebooks are saved.
 And the `[ZEPPELIN_PORT]` variable is the port on which to run Zeppelin
+
+## Git gestion
+
+https://community.hortonworks.com/articles/149437/how-to-store-zeppelin-notes-in-github-repo.html
